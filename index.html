@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body onload="selectQuote()">
+  <body>
     <header>
     </header>
     <article>
       <div id="quoteCont">
         <p id="quote"></p>
         <p id="author"></p>
-        <button type="button" id="back">Back</button>
-        <button type="button" id="forward">Forward</button>
+        <button type="button" id="back" onclick="back()">Back</button>
+        <button type="button" id="forward" onclick="forward()">Forward</button>
       </div>
     </article>
     <footer>
