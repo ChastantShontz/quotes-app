@@ -14,11 +14,17 @@
 
 #quote::before {
   content: "\201C";
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #quote::after {
   content: ",\201D";
+}
+
+#author {
+  margin-right: 2em;
+  font-size: 1.1em;
+  text-align: right;
 }
 
 #author::before {
