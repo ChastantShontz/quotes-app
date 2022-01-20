@@ -24,3 +24,16 @@ function forward() {
     document.getElementById("quote").innerHTML = quotes[index].quote;
   }
 }
+
+function back() {
+  if (sessionStorage.index == 0) {
+    sessionStorage.index = quotes.length - 1;
+    let index = sessionStorage.index;
+    document.getElementById("quote").innerHTML = quotes[index].quote;
+  }
+  else {
+    sessionStorage.index--;
+    let index = sessionStorage.index;
+    document.getElementById("quote").innerHTML = quotes[index].quote;
+  }
+}
