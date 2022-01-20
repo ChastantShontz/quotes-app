@@ -5,3 +5,7 @@
 #quote::after {
   content: ",\201D";
 }
+
+#author::before {
+  content: "\2014";
+}
