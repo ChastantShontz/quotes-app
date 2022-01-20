@@ -1,3 +1,13 @@
+#quoteCont {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  height: 40%;
+  width: 40%;
+  padding: 2em;
+  border: .1em solid var(--black);
+}
+
 #quote::before {
   content: "\201C";
 }
