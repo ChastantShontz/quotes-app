@@ -12,4 +12,5 @@ let index = 0;
 
 function selectQuote () {
   document.getElementById("quote").innerHTML = quotes[index].quote;
+  document.getElementById("author").innerHTML = quotes[index].author;
 };
