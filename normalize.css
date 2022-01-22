@@ -15,7 +15,7 @@ button {
   cursor: pointer;
 }
 
-.background {
+#background {
   border-radius: 2em;
   background-color: var(--white);
   border: .1em solid var(--black);

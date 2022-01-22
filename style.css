@@ -1,3 +1,7 @@
+#cont {
+  height: 100vh;
+}
+
 #quotesCont {
   position: absolute;
   left: 30%;
