@@ -14,22 +14,22 @@ document.getElementById("author").innerHTML = quotes[sessionStorage.index].autho
 
 sessionStorage.color = Math.ceil(Math.random() * 6);
 if (sessionStorage.color == 1) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--red)";
+  document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 47, 47, 90%), rgba(250, 47, 47, 70%), rgba(250, 47, 47, 80%))";
 }
 else if (sessionStorage.color == 2) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--orange)";
+  document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 150, 0, 90%), rgba(250, 150, 0, 70%), rgba(250, 150, 0, 80%))";
 }
 else if (sessionStorage.color == 3) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--yellow)";
+  document.getElementById("quotesCont").style.background= "linear-gradient(to bottom right, rgba(252, 223, 33, 90%), rgba(252, 223, 33, 70%), rgba(252, 223, 33, 80%))";
 }
 else if (sessionStorage.color == 4) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--green)";
+  document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(45, 161, 84, 90%), rgba(45, 161, 84, 70%), rgba(45, 161, 84, 80%))";
 }
 else if (sessionStorage.color == 5) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--blue)";
+  document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(53, 97, 187, 90%), rgba(53, 97, 187, 70%), rgba(53, 97, 187, 80%))";
 }
 else if (sessionStorage.color == 6) {
-  document.getElementById("quotesCont").style.backgroundColor = "var(--purple)";
+  document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(154, 60, 201, 90%), rgba(154, 60, 201, 70%), rgba(154, 60, 201, 80%))";
 }
 
 function forward() {
@@ -66,43 +66,43 @@ function selectColor() {
     let color = Math.ceil(Math.random() * 6);
     sessionStorage.color = color;
     if (sessionStorage.color == 1) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--red)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 47, 47, 90%), rgba(250, 47, 47, 70%), rgba(250, 47, 47, 80%))";
     }
     else if (sessionStorage.color == 2) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--orange)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 150, 0, 90%), rgba(250, 150, 0, 70%), rgba(250, 150, 0, 80%))";
     }
     else if (sessionStorage.color == 3) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--yellow)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(252, 223, 33, 90%), rgba(252, 223, 33, 70%), rgba(252, 223, 33, 80%))";
     }
     else if (sessionStorage.color == 4) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--green)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(45, 161, 84, 90%), rgba(45, 161, 84, 70%), rgba(45, 161, 84, 80%))";
     }
     else if (sessionStorage.color == 5) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--blue)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(53, 97, 187, 90%), rgba(53, 97, 187, 70%), rgba(53, 97, 187, 80%))";
     }
     else if (sessionStorage.color == 6) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--purple)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(154, 60, 201, 90%), rgba(154, 60, 201, 70%), rgba(154, 60, 201, 80%))";
     }
   }
   else {
     sessionStorage.color = color;
     if (sessionStorage.color == 1) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--red)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 47, 47, 90%), rgba(250, 47, 47, 70%), rgba(250, 47, 47, 80%))";
     }
     else if (sessionStorage.color == 2) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--orange)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(250, 150, 0, 90%), rgba(250, 150, 0, 70%), rgba(250, 150, 0, 80%))";
     }
     else if (sessionStorage.color == 3) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--yellow)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(252, 223, 33, 90%), rgba(252, 223, 33, 70%), rgba(252, 223, 33, 80%))";
     }
     else if (sessionStorage.color == 4) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--green)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(45, 161, 84, 90%), rgba(45, 161, 84, 70%), rgba(45, 161, 84, 80%))";
     }
     else if (sessionStorage.color == 5) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--blue)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(53, 97, 187, 90%), rgba(53, 97, 187, 70%), rgba(53, 97, 187, 80%))";
     }
     else if (sessionStorage.color == 6) {
-      document.getElementById("quotesCont").style.backgroundColor = "var(--purple)";
+      document.getElementById("quotesCont").style.background = "linear-gradient(to bottom right, rgba(154, 60, 201, 90%), rgba(154, 60, 201, 70%), rgba(154, 60, 201, 80%))";
     }
   }
 }
