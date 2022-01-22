@@ -1,3 +1,5 @@
+/*Primary Classes*/
+
 #cont {
   height: 100vh;
 }
@@ -48,11 +50,21 @@
 
 #back, #forward {
   border-radius: .5em;
-  background-color: var(--white);
-  padding-left: .25em;
-  padding-right: .25em;
-  padding-top: .1em;
-  padding-bottom: .1em;
-  border: .1em solid var(--black);
+  background-color: var(--darkWhite);
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  box-shadow: .02em .02em .2em .002em rgba(17, 17, 17, 75%),
+              .01em .01em .1em .001em rgba(238, 238, 238);
+  color: var(--lightBlack);
   font-size: 1.1em;
+  font-weight: bold;
+}
+
+/*Color Variables*/
+
+:root {
+  --lightBlack: #111111;
+  --darkWhite: #eeeeee;
 }
