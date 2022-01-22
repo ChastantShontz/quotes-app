@@ -15,7 +15,19 @@
   box-shadow: .1em .1em 1em .01em rgba(0, 0, 0, 50%);
 }
 
+#textCont {
+  border-radius: .5em;
+  background-color: var(--white);
+}
+
+#text {
+  border-radius: .5em;
+  padding: 1em;
+  border: .1em solid var(--darkWhite);
+}
+
 #quote {
+  color: var(--lightBlack);
   font-size: 1.25em;
 }
 
@@ -30,6 +42,7 @@
 
 #author {
   margin-right: 2em;
+  color: var(--lightBlack);
   font-size: 1.1em;
   text-align: right;
 }
