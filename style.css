@@ -62,6 +62,22 @@
   font-weight: bold;
 }
 
+/*Animations*/
+
+#back:active {
+  box-shadow: .27em .02em .2em .002em rgba(17, 17, 17, 25%),
+              .02em .02em .2em .002em rgba(17, 17, 17, 75%),
+              .01em .01em .1em .001em rgba(238, 238, 238);
+  transform: translateX(-.25em);
+}
+
+#forward:active {
+  box-shadow: -.27em .02em .2em .002em rgba(17, 17, 17, 25%),
+              .02em .02em .2em .002em rgba(17, 17, 17, 75%),
+              .01em .01em .1em .001em rgba(238, 238, 238);
+  transform: translateX(.25em);
+}
+
 /*Color Variables*/
 
 :root {
