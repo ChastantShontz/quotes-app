@@ -27,12 +27,16 @@
 }
 
 #quote {
+  margin-left: 1em;
   color: var(--lightBlack);
   font-size: 1.25em;
 }
 
 #quote::before {
   content: "\201C";
+  position: absolute;
+  left: .7em;
+  top: .5em;
   font-size: 3em;
 }
 
@@ -42,6 +46,7 @@
 
 #author {
   margin-right: 2em;
+  margin-top: 1em;
   color: var(--lightBlack);
   font-size: 1.1em;
   text-align: right;
