@@ -53,7 +53,7 @@
 }
 
 #author::before {
-  content: "\2014";
+  content: "\2014\00a0";
 }
 
 #buttons {
