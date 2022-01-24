@@ -44,9 +44,12 @@
   content: ",\201D";
 }
 
+#cite {
+  margin-top: 1em;
+}
+
 #author {
   margin-right: 2em;
-  margin-top: 1em;
   color: var(--lightBlack);
   font-size: 1.1em;
   text-align: right;
@@ -54,6 +57,23 @@
 
 #author::before {
   content: "\2014\00a0";
+}
+
+#sourceCont {
+  text-align: right;
+}
+
+#source {
+  margin-right: 2em;
+  font-size: 1.1em;
+}
+
+#source:hover {
+  text-decoration: underline;
+}
+
+#source:active {
+  color: var(--purple);
 }
 
 #buttons {
