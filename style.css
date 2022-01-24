@@ -138,6 +138,7 @@
 }
 
 @media screen and (min-width: 550px) and (max-width: 767px) {
+  #quotesCont {left: 10%; top: 10%; height: 80%; width: 80%;}
 }
 
 @media screen and (max-width: 549px) {
