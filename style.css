@@ -142,4 +142,5 @@
 }
 
 @media screen and (max-width: 549px) {
+  #quotesCont {left: 5%; top: 5%; height: 90%; width: 90%;}
 }
